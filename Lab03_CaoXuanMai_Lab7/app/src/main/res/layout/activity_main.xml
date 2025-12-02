@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Button"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Selectors"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Shapes+Selectors"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:id="@+id/colSelectors"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnColoredSelector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COLORED SELECTOR"
+                android:background="@drawable/btn_green_selector"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnColorSelectorDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COLOR SELECTOR DISABLED"
+                android:background="@drawable/btn_yellow_selector"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:enabled="false"
+                android:layout_marginTop="8dp" />
+
+            <ImageView
+                android:id="@+id/imgLeftEmoji"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_emoji"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colShapes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnRoundShape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROUND SHAPE"
+                android:background="@drawable/bg_round_shape"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnShapeWithGradient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHAPE WITH GRADIENT"
+                android:background="@drawable/bg_shape_gradient"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnSelectorShape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECTOR SHAPE"
+                android:background="@drawable/btn_red_selector"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="4dp"
+                android:background="@drawable/bg_emoji_border">
+
+                <ImageView
+                    android:id="@+id/imgRightEmoji"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_emoji" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/btnCustomToast"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="TOAST"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_bottom_blue"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnCustomDialog"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="DIALOG"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_bottom_blue"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Made by Cao Xuan Mai"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+    <Button
+        android:id="@+id/btnOpenColor"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="BÀI 3 - RGB / CMY"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_red_selector"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+
+
+
