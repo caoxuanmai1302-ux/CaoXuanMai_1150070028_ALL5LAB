@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView android:id="@+id/iv_face1"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_angry"/>
+            <ImageView android:id="@+id/iv_face2"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_baffle"/>
+            <ImageView android:id="@+id/iv_face3"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_beauty"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView android:id="@+id/iv_face4"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_boss"/>
+            <ImageView android:id="@+id/iv_face5"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_choler"/>
+            <ImageView android:id="@+id/iv_face6"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_dribble"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView android:id="@+id/iv_face7"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_look_down"/>
+            <ImageView android:id="@+id/iv_face8"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_sure"/>
+            <ImageView android:id="@+id/iv_face9"
+                android:layout_width="100dp" android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_radius" android:padding="10dp"
+                android:src="@drawable/ic_tire"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnRandom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Random 3 Icon"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"/>
+    </LinearLayout>
+</FrameLayout>

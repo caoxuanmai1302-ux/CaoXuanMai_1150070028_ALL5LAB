@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- 3 tab của Lab 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnL2Tab1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Bài 1 (Splash)"/>
+
+        <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btnL2Tab2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Bài 2 (Progress)"/>
+
+        <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btnL2Tab3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Bài 3 (Profile)"/>
+    </LinearLayout>
+
+    <!-- Nút quay về Lab 1 -->
+    <Button
+        android:id="@+id/btnBackLab1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Về Lab 1 (MainActivity)"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Box Bài 1 -->
+    <LinearLayout
+        android:id="@+id/boxL2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 1: Splash random màu + icon"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnRunSplash"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Chạy Splash (quay lại Lab 2)"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <!-- Box Bài 2 -->
+    <LinearLayout
+        android:id="@+id/boxL2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 2: Custom Progress Overlay"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnShowOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Hiện Overlay 2s"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Overlay loading -->
+        <include
+            android:id="@+id/l2_overlay"
+            layout="@layout/item_loading"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!-- Box Bài 3 -->
+    <LinearLayout
+        android:id="@+id/boxL2_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 3: Bấm icon trong Profile để gọi"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnOpenProfile"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Mở Profile"/>
+    </LinearLayout>
+
+</LinearLayout>

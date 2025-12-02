@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#1976D2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/center_guide"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView android:id="@+id/iv_aries"    android:src="@drawable/aries"    android:tag="0"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="0"    android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_taurus"   android:src="@drawable/taurus"   android:tag="1"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="30"   android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_gemini"   android:src="@drawable/gemini"   android:tag="2"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="60"   android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_cancer"   android:src="@drawable/cancer"   android:tag="3"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="90"   android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_leo"      android:src="@drawable/leo"      android:tag="4"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="120"  android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_virgo"    android:src="@drawable/virgo"    android:tag="5"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="150"  android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_libra"    android:src="@drawable/libra"    android:tag="6"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="180"  android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_scorpio"  android:src="@drawable/scorpio"  android:tag="7"   app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="210"  android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_sagittarius" android:src="@drawable/sagittarius" android:tag="8" app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="240" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_capricorn" android:src="@drawable/capricorn" android:tag="9" app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="270" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_aquarius" android:src="@drawable/aquarius" android:tag="10" app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="300" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ImageView android:id="@+id/iv_pisces"   android:src="@drawable/pisces"   android:tag="11"  app:layout_constraintCircle="@id/center_guide" app:layout_constraintCircleRadius="150dp" app:layout_constraintCircleAngle="330" android:layout_width="70dp" android:layout_height="70dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/iv_selected"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/aries" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạch Dương"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textColor="#1976D2" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="12dp">
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/content_default"
+                android:textSize="16sp"
+                android:lineSpacingExtra="6dp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_detail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Xem Thêm"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

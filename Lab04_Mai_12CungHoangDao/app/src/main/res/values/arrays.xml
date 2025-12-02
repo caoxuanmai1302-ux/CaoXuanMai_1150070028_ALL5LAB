@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zodiac_names">
+        <item>Bạch Dương</item>
+        <item>Kim Ngưu</item>
+        <item>Song Tử</item>
+        <item>Cự Giải</item>
+        <item>Sư Tử</item>
+        <item>Xử Nữ</item>
+        <item>Thiên Bình</item>
+        <item>Thiên Yết</item>
+        <item>Nhân Mã</item>
+        <item>Ma Kết</item>
+        <item>Bảo Bình</item>
+        <item>Song Ngư</item>
+    </string-array>
+
+    <string-array name="zodiac_contents">
+        <item>Bạch Dương là cung đầu tiên trong 12 cung hoàng đạo, mang năng lượng mạnh mẽ...</item>
+        <item>Kim Ngưu kiên định, yêu cái đẹp và rất trung thành...</item>
+        <item>Song Tử thông minh, nhanh nhẹn, thích giao tiếp...</item>
+        <item>Cự Giải nhạy cảm, giàu tình cảm, rất yêu gia đình...</item>
+        <item>Sư Tử tự tin, lãnh đạo bẩm sinh, thích được chú ý...</item>
+        <item>Xử Nữ cầu toàn, tỉ mỉ, luôn giúp đỡ người khác...</item>
+        <item>Thiên Bình yêu hòa bình, công bằng, có gu thẩm mỹ cao...</item>
+        <item>Thiên Yết bí ẩn, mãnh liệt, trung thành tuyệt đối...</item>
+        <item>Nhân Mã yêu tự do, lạc quan, thích phiêu lưu...</item>
+        <item>Ma Kết tham vọng, kiên trì, rất có trách nhiệm...</item>
+        <item>Bảo Bình độc lập, sáng tạo, luôn nghĩ khác biệt...</item>
+        <item>Song Ngư mơ mộng, giàu trực giác, rất giàu tình cảm...</item>
+    </string-array>
+</resources>

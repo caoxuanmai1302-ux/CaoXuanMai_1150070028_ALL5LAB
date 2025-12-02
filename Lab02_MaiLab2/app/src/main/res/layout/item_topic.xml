@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_radius"
+        android:text="Family"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"/>
+</LinearLayout>

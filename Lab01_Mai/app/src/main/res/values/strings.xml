@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="so_a">Nhập X</string>
+    <string name="so_b">Nhập Y</string>
+    <string name="ket_qua">Kết quả</string>
+    <string name="chup_anh">Chụp ảnh</string>
+</resources>

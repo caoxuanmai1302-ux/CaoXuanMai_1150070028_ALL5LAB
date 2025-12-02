@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">12 Cung Hoàng Đạo</string>
+
+    <string name="aries">Bạch Dương (21/3 - 19/4)</string>
+    <string name="taurus">Kim Ngưu (20/4 - 20/5)</string>
+    <string name="gemini">Song Tử (21/5 - 20/6)</string>
+    <string name="cancer">Cự Giải (21/6 - 22/7)</string>
+    <string name="leo">Sư Tử (23/7 - 22/8)</string>
+    <string name="virgo">Xử Nữ (23/8 - 22/9)</string>
+    <string name="libra">Thiên Bình (23/9 - 22/10)</string>
+    <string name="scorpio">Thiên Yết (23/10 - 21/11)</string>
+    <string name="sagittarius">Nhân Mã (22/11 - 21/12)</string>
+    <string name="capricorn">Ma Kết (22/12 - 19/1)</string>
+    <string name="aquarius">Bảo Bình (20/1 - 18/2)</string>
+    <string name="pisces">Song Ngư (19/2 - 20/3)</string>
+
+    <string name="content_default">Chọn một cung hoàng đạo để xem thông tin...</string>
+
+    <string name="aries_content">Bạch Dương mạnh mẽ, nhiệt huyết, dũng cảm, thích chinh phục...</string>
+    <string name="taurus_content">Kim Ngưu kiên định, thực tế, yêu cái đẹp, rất trung thành...</string>
+    <string name="gemini_content">Song Tử thông minh, nhanh nhẹn, thích giao tiếp, hay thay đổi...</string>
+    <string name="cancer_content">Cự Giải nhạy cảm, giàu tình cảm, rất yêu gia đình...</string>
+    <string name="leo_content">Sư Tử tự tin, lãnh đạo bẩm sinh, thích được chú ý...</string>
+    <string name="virgo_content">Xử Nữ cầu toàn, tỉ mỉ, luôn giúp đỡ người khác...</string>
+    <string name="libra_content">Thiên Bình yêu hòa bình, công bằng, có gu thẩm mỹ cao...</string>
+    <string name="scorpio_content">Thiên Yết bí ẩn, mãnh liệt, trung thành tuyệt đối...</string>
+    <string name="sagittarius_content">Nhân Mã yêu tự do, lạc quan, thích phiêu lưu...</string>
+    <string name="capricorn_content">Ma Kết tham vọng, kiên trì, trách nhiệm cao...</string>
+    <string name="aquarius_content">Bảo Bình độc lập, sáng tạo, luôn nghĩ khác biệt...</string>
+    <string name="pisces_content">Song Ngư mơ mộng, giàu trực giác, rất giàu tình cảm...</string>
+</resources>

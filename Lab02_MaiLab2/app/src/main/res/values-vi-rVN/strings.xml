@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Truyện Cười</string>
+    <!-- Topics -->
+    <string name="txt_topics">Chủ đề</string>
+    <string name="topic_family">Gia đình</string>
+    <string name="topic_school">Trường lớp</string>
+    <string name="topic_work">Công việc</string>
+    <string name="topic_misc">Tổng hợp</string>
+    <string name="txt_stories_of">Truyện của %1$s</string>
+    <!-- Buttons -->
+    <string name="btn_prev">Trước</string>
+    <string name="btn_next">Sau</string>
+    <!-- Sample stories -->
+    <string name="s1_title">Logic của ba</string>
+    <string name="s1_content">Khi xin tiền, ba bảo: Nếu tiền mọc trên cây...</string>
+    <string name="s2_title">Bí kíp của mẹ</string>
+    <string name="s2_content">Mẹ nói có bí kíp nấu ăn...</string>
+    <string name="s3_title">Chiến thuật thi cử</string>
+    <string name="s3_content">Cô: Sao em nhìn đồng hồ khi làm bài?</string>
+    <string name="s4_title">Chuyện công sở</string>
+    <string name="s4_content">Sếp: Em có tin vào cuộc sống sau giờ làm không?</string>
+    <string name="s5_title">Cười ngẫu hứng</string>
+    <string name="s5_content">Tôi nói điện thoại là tôi mất khiếu hài hước...</string>
+    <!-- Keys used by layouts -->
+    <string name="txt_story1">Truyện cười số 1</string>
+    <string name="txt_story2">Truyện cười số 2</string>
+    <string name="txt_name">Thỏ</string>
+    <string name="txt_desc">Thỏ là động vật có vú nhỏ với tai dài.</string>
+</resources>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="@drawable/bg_header">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lab 1 - 3 Bài"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/ink"
+            android:paddingBottom="12dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_tabbar"
+            android:padding="6dp">
+
+            <Space android:layout_width="6dp" android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btnTabCalc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_tab_selector"
+                android:text="Bài 1"
+                android:textColor="@color/tab_text_color"
+                android:textStyle="bold"/>
+
+            <Space android:layout_width="6dp" android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btnTabRandom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_tab_selector"
+                android:text="Bài 2"
+                android:textColor="@color/tab_text_color"
+                android:textStyle="bold"/>
+
+            <Space android:layout_width="6dp" android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btnTabCall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_tab_selector"
+                android:text="Bài 3"
+                android:textColor="@color/tab_text_color"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/boxDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_section"
+            android:padding="14dp"
+            android:layout_marginTop="14dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp">
+
+                <Button
+                    android:id="@+id/btnLab2Splash"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:text="Lab2"/>
+
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnLab2Profile"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:text="Mai"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- ===== BÀI 1: MÁY TÍNH ===== -->
+        <LinearLayout
+            android:id="@+id/boxCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_section"
+            android:padding="14dp"
+            android:layout_marginTop="14dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bài 1: Máy tính (+, -, ×, ÷, %)"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/ink_soft"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/edtA"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nhập số A"
+                android:inputType="numberDecimal"
+                android:background="@drawable/bg_edittext"
+                android:paddingLeft="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/edtB"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Nhập số B"
+                android:inputType="numberDecimal"
+                android:background="@drawable/bg_edittext"
+                android:paddingLeft="12dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvKQ"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Kết quả"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/ink"
+                android:background="@drawable/bg_textarea"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_secondary_selector"
+                    android:text="+"
+                    android:textColor="@color/ink"
+                    android:textStyle="bold"/>
+
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnSub"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_secondary_selector"
+                    android:text="-"
+                    android:textColor="@color/ink"
+                    android:textStyle="bold"/>
+
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnMul"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_secondary_selector"
+                    android:text="×"
+                    android:textColor="@color/ink"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <Space android:layout_width="match_parent" android:layout_height="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDiv"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_secondary_selector"
+                    android:text="÷"
+                    android:textColor="@color/ink"
+                    android:textStyle="bold"/>
+
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnMod"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_secondary_selector"
+                    android:text="%"
+                    android:textColor="@color/ink"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ===== BÀI 2: NGẪU NHIÊN &amp; XÚC XẮC ===== -->
+        <LinearLayout
+            android:id="@+id/boxRandom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_section"
+            android:padding="14dp"
+            android:layout_marginTop="14dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bài 2: Số ngẫu nhiên &amp; Tung xúc xắc"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/ink_soft"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnRand"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_primary_outline_selector"
+                android:text="Xuất số ngẫu nhiên (0..1000)"
+                android:textColor="@color/brand"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvRand"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="..."
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/brand_dark"
+                android:background="@drawable/bg_textarea"
+                android:layout_marginTop="10dp"/>
+
+            <Space android:layout_width="match_parent" android:layout_height="12dp"/>
+
+            <Button
+                android:id="@+id/btnDice"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_primary_selector"
+                android:text="Tung xúc xắc"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvDice"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="⚀"
+                android:textSize="64sp"
+                android:gravity="center"
+                android:textColor="@color/danger"
+                android:background="@drawable/bg_textarea"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <!-- ===== BÀI 3: GỌI &amp; NHẮN TIN ===== -->
+        <LinearLayout
+            android:id="@+id/boxCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_section"
+            android:padding="14dp"
+            android:layout_marginTop="14dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bài 3: Gọi điện &amp; Nhắn tin"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/ink_soft"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Số điện thoại"
+                android:inputType="phone"
+                android:background="@drawable/bg_edittext"
+                android:paddingLeft="12dp"
+                android:layout_marginBottom="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDial"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_primary_outline_selector"
+                    android:text="Gọi"
+                    android:textColor="@color/brand"
+                    android:textStyle="bold"/>
+
+                <Space android:layout_width="8dp" android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnSms"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_secondary_selector"
+                    android:text="SMS"
+                    android:textColor="@color/ink"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtSms"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Nội dung tin nhắn (tuỳ chọn)"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:background="@drawable/bg_textarea"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

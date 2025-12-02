@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brand">#5B86E5</color>
+    <color name="brand_dark">#3D5ECC</color>
+    <color name="ink">#1D242B</color>
+    <color name="ink_soft">#4A5662</color>
+    <color name="muted">#9BA7B2</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="bg_tint_top">#F1F6FF</color>
+    <color name="bg_tint_bottom">#E8F0FF</color>
+    <color name="success">#2E7D32</color>
+    <color name="danger">#D32F2F</color>
+
+    <!-- text selector for tabs -->
+    <color name="tab_text_normal">#374151</color>
+    <color name="tab_text_selected">#FFFFFF</color>
+</resources>

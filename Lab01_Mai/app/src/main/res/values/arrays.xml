@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="splash_colors">
+        <item>#303F9F</item>
+        <item>#455A64</item>
+        <item>#6A1B9A</item>
+        <item>#1565C0</item>
+        <item>#2E7D32</item>
+        <item>#D32F2F</item>
+        <item>#B71C1C</item>
+    </string-array>
+
+    <array name="splash_icons">
+        <item>@drawable/ic_penguin</item>
+        <item>@drawable/ic_cat</item>
+        <item>@drawable/ic_dog</item>
+    </array>
+</resources>

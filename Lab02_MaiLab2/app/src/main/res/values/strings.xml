@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TruyenCuoi</string>
+
+    <string name="txt_topics">Topics</string>
+    <string name="topic_family">Family</string>
+    <string name="topic_school">School</string>
+    <string name="topic_work">Work</string>
+    <string name="topic_misc">Misc</string>
+    <string name="txt_stories_of">Stories of %1$s</string>
+
+    <string name="btn_prev">Previous</string>
+    <string name="btn_next">Next</string>
+
+    <string name="s1_title">Dad’s Logic</string>
+    <string name="s1_content">When I asked dad for money, he said: If money grew on trees, I would be a gardener. So I started watering him daily...</string>
+
+    <string name="s2_title">Mom’s Secret</string>
+    <string name="s2_content">Mom said she had a secret recipe. Turned out it was just adding love and a lot of fish sauce.</string>
+
+    <string name="s3_title">Exam Strategy</string>
+    <string name="s3_content">Teacher: Why are you looking at your watch during the exam? Me: Because it has the answers... of the time.</string>
+
+    <string name="s4_title">Office Humor</string>
+    <string name="s4_content">Boss: Do you believe in life after work? I said: I will if I ever see it.</string>
+
+    <string name="s5_title">Random Joke</string>
+    <string name="s5_content">I told my phone I lost my sense of humor. It replied: I can’t help with that, but here’s a meme.</string>
+</resources>
